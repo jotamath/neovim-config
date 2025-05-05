@@ -35,12 +35,6 @@ local plugins = {
       return require "configs.none-ls"
     end,
   },
-  {
-    "wakatime/vim-wakatime",
-    lazy = false,
-    config = function()
-      vim.g.wakatime_api_key = "waka_31289d3d-f875-4435-8238-aa095a067ac8"
-    end,
-  }
+  
 }
 return plugins
